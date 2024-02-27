@@ -1,0 +1,15 @@
+aside {
+  grid-area: aside;
+  background-color: white;
+  border-radius: 15px;
+  height: 60vh;
+  position: sticky;
+  top: 60px;
+  margin-right: 10px;
+}
+
+@media (max-width: 960px) {
+  aside {
+    display: none;
+  }
+}
